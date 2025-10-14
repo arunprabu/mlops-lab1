@@ -47,4 +47,4 @@ with mlflow.start_run():
     mlflow.log_metric("accuracy", acc)  # Log the accuracy value of the model
     mlflow.sklearn.log_model(model, "model") # Save the trained model as an artifact
 
-    print(f"Run logged to MLflow. Accuracy: {acc:.3f}")
+    print(f"Run logged to MLflow. \n Accuracy: {acc:.3f}")
