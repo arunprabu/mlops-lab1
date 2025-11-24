@@ -165,12 +165,13 @@ print("Predicted class:", iris.target_names[prediction][0])
 
 # MLOps Demo Lab 1
 Steps to follow
-
+```
 > mkdir mlops-lab1 
 > cd mlops-lab1
 > python -m venv .venv
 > source .venv/bin/activate     # or .venv\Scripts\activate on Windows
 > pip install scikit-learn mlflow pandas
+```
 
 create a file named train.py
 then, write the code as you find in the file. 
